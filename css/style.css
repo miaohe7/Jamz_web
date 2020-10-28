@@ -28,6 +28,10 @@ body{
     color: #ffffff;
     height:100vh;
     position: relative; 
+    align-items: center;
+    justify-content: center;
+    text-align:center;
+    height:100%;
 }
 
 .showcase:before{
@@ -49,6 +53,7 @@ body{
     height:100%;
 }
 
+
 .showcase h1{
     font-size: 4rem;
 }
@@ -68,8 +73,8 @@ body{
     transition: opacity 1s ease-in;
 }
 
-.showcase .btn:hover{
-    opacity:0.7;
+.btn:hover{
+    opacity:1;
 }
 
 /* .content{
@@ -288,6 +293,9 @@ nav{
 }*/
 /*end of burger menu animation*/
 
-h1,h2{
+h1{
+    margin:0;
+    padding:0;
     text-align: center;
+    justify-content: space-around;
 }
