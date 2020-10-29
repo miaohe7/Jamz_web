@@ -16,12 +16,6 @@ body{
     background: url("../image/castlegrey.jpg") no-repeat 50% 50%;
     line-height: 1.4;
 }
-/* .container{
-    max-width:960px;
-    margin:auto;
-    overflow: hidden;
-    padding: 0.3rem;
-} */
 
 .showcase{
     background-color: var(--primary-color);
@@ -77,33 +71,6 @@ body{
     opacity:1;
 }
 
-/* .content{
-    width: 60%;
-    margin:0 auto;
-    z-index: -1;
-    position: absolute;
-    top:60%;
-    left: 10%;
-    transform: translate(0,-50%);
-
-}
-
-.content h1{
-    font-family: Poppins;
-    font-size: 54px;
-    color: #101010;
-    font-weight: 700;
-    text-transform:uppercase;
-    margin-bottom: 10px;
-
-}
-
-.content p{
-    margin-top:0;
-    text-align: left;
-    font-weight: 400;
-}
- */
 .overlay-2{
     z-index: 0;
     position:absolute;
@@ -215,7 +182,7 @@ nav{
     letter-spacing: 1px;
     font-size: 14px;
 }
-.nav-links :hover{
+.nav-links li:hover{
     transform:translateY(-5px);
     transition: all 0.3s ease;
 }
