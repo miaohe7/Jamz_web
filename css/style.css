@@ -7,19 +7,19 @@
 html,body{
     margin:0;
     padding:0;
-    width:100%;
-    height:100%;
-    overflow-x:hidden;
-    overflow-y:hidden;
+    /*width:100%;
+    height:100%; */
+    overflow-x:hidden;    
 }
 
 body{
     font-family: Poppins;
-    background: url("../image/castlegrey.jpg") no-repeat 50% 50%;
     line-height: 1.4;
+    background: url("../image/transparentcastle.png") no-repeat 50% 50%;
 }
 
-.showcase{
+
+/* .showcase{
     background-color: var(--primary-color);
     color: #ffffff;
     height:100vh;
@@ -27,10 +27,10 @@ body{
     align-items: center;
     justify-content: center;
     text-align:center;
-    height:100%;
-}
+    height:100vh;
+} */
 
-.showcase:before{
+/* .showcase:before{
     content:'';
     position:absolute;
     top:0;
@@ -38,7 +38,7 @@ body{
     width:100%;
     height:100%;
     z-index:-1;
-}
+} */
 
 .showcase .showcase-inner{
     display:flex;
@@ -167,9 +167,11 @@ nav{
 }
 
 .nav-links{
+    padding:0px;
+    margin:0px;
     position: absolute;
-    right:0px;
-    height:80vh;
+    left:-20%; /*changed from right to left */
+    height:92vh;
     top:8vh;
     background-color:#ffffff;
     display: flex;
@@ -178,12 +180,12 @@ nav{
     align-items:center;
     width: 20%;
     z-index:1;
-    transform:translateX(100%);
+    transform:translateX(0%); /*changed from 100 to 0 */
     transition: transform 0.5s ease-in;
 }
 
 .nav-active{
-    transform: translateX(0%);
+    transform: translateX(100%); /*changed from 0 to 100 */
 }
 
 @keyframes navLinkFade{
@@ -207,7 +209,8 @@ nav{
     color:#2c3e50;
     text-decoration: none;
     letter-spacing: 1px;
-    font-size: 14px;
+    font-size: 19px;
+    font-weight: 300;
 }
 .nav-links li:hover{
     transform:translateY(-5px);
