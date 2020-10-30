@@ -16,13 +16,13 @@
     vertical-align: middle;
 }
 .search{
+    font-family: Poppins;
     border:none;
     height:100%;
     width:100%;
     padding:0px 5px;
     border-radius:50px;
     font-size:18px;
-    font-family: "Nunito";
     font-weight:500;
 }
 .search:focus{
@@ -32,5 +32,19 @@
 i{
     color: var(--new-color);
 }
+
+.login{
+    border: none;
+    outline: none;
+    color: #000;
+    font-size:16px;
+    letter-spacing: 1px;
+}
+.login a{
+    text-decoration: none;
+    color: #2c3e50;
+}
+
+
 
 
