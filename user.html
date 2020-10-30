@@ -12,12 +12,6 @@
     </head>
     <body>
         <div class="container">
-            <div class="overlay">
-                <p class="screen">WELCOME</p>
-                <div class="intro">
-                    <button class="myBtn" onclick="fadeOut()">EXPLORE JAMZ</button>
-                </div>
-            </div>
             <div class="content">
                 <nav>
                     <div class="burger">
@@ -29,33 +23,13 @@
                         <h3>Jamz Delivery</h3>
                     </div>
                     <div class="user">
-                        <button>Hi! User </button>
+                        <button>Hi! User</button>
                         <ul>
                             <li></li>
                         </ul>
                     </div>
                 </nav>
         </div>
-        <script>
-            function fadeOut(){
-                TweenMax.to(".myBtn",1,{
-                    y:-100,
-                    opacity:0
-                });
-
-                TweenMax.to(".screen",2,{
-                    y:-400,
-                    opacity:0,
-                    ease: Power2.easeInOut,
-                    delay:1
-                });
-                TweenMax.to(".overlay",2,{
-                    delay:1.5,
-                    top:"-100%",
-                    ease:Expo.easeInOut
-                });
-            }
-        </script>
         <div class="slidenav">
             <ul class="nav-links">
                 <li><a href="#" class="active">HOME</a></li>
