@@ -2,6 +2,7 @@
     --primary-color: rgba(250,250,250,0.6);
     --overlay-color: rgba(24,39,51,0.85);
     --new-color: #48a9a6;
+    --logo-color: #2c3e50;
     --menu-speed:0.75s;
 }
 html,body{
@@ -18,27 +19,6 @@ body{
     background: url("../image/transparentcastle.png") no-repeat 50% 50%;
 }
 
-
-/* .showcase{
-    background-color: var(--primary-color);
-    color: #ffffff;
-    height:100vh;
-    position: relative; 
-    align-items: center;
-    justify-content: center;
-    text-align:center;
-    height:100vh;
-} */
-
-/* .showcase:before{
-    content:'';
-    position:absolute;
-    top:0;
-    left:0;
-    width:100%;
-    height:100%;
-    z-index:-1;
-} */
 
 .showcase .showcase-inner{
     display:flex;
@@ -57,22 +37,6 @@ body{
 .showcase p{
     font-size: 1.3rem;
 }
-
-/* .showcase .btn{
-    display:inline-block;
-    border: none;
-    background-color:var(--primary-color);
-    color: #ffffff;
-    padding: 0.75rem;
-    margin-top: 1rem;
-    text-decoration: none;
-    transition: opacity 1s ease-in;
-} 
-
-.btn:hover{
-    opacity:1;
-} */
-
 
 .overlay{
     z-index: 2;
@@ -104,7 +68,7 @@ body{
     transform:translate(-50%,-50%);
 }
 
- button{
+ .intro button{
     display: block;
     padding: 24px 48px;
     font-family: Poppins;
@@ -156,6 +120,7 @@ nav{
     justify-content: space-around;
     align-items: center;
     min-height: 8vh;
+    max-height: 8vh;
     background-color: #ffffff;
 }
 
